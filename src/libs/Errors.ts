@@ -25,6 +25,7 @@ export enum Message {
 
 // Java Scriptni ichidagi error larga extend bolsin
 class Errors extends Error {
+  // property miz HttpCodeni qabul qilyapdi
   public code: HttpCode;
   public message: Message;
 
